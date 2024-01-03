@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}*/
+
+#form {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  padding: 40px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input {
+  margin-top: 15px;
+  display: flex;
+  height: 32px;
+  padding: 10px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+
+
+#form button {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px; /* Add spacing between the form elements and the button */
+}
+
+#form button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 10px 30px;
+  }
+}
+
+#form button[type=submit] {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  
+  background: #207cca; /* Old browsers */
+  background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #207cca 0%,#9f58a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+  margin-top: 20px; /* Add spacing between the form elements and the submit button */
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+#multi-button #buttonz{
+  font-size: 5vmin;
+  padding: .5em 1em;
+  background: #fff;
+  color: #4A5568;
+  border: 0px solid #A0AEC0;
+  margin: .1em;
+  transition: background .2s ease, color .2s ease, box-shadow .2s ease, transform .2s ease;
+  box-shadow: 0 0 0 #BEE3F8;
+  transform: translateY(0);
+}
+.multi-button #buttonz:first-of-type {
+  border-radius: .5em 0 0 .5em;
+}
+
+.multi-button #buttonz:last-of-type {
+  border-radius: 0 .5em .5em 0;
+}
+
+.multi-button #buttonz i{
+  color: #A0AEC0;
+  margin-right: .3em;
+  transition: all .2s ease-out;
+}
+.multi-button:hover #buttonz{
+  color: #A0AEC0;
+}
+
+.multi-button:hover #buttonz:hover{
+  background: #D53F8C;
+  color: #fff;
+  box-shadow: 0 0 0.8em 0 rgba(213, 63, 140, .8);
+  transform: translateY(-.2em);
+}
+.multi-button:hover #buttonz i{
+  color: #CBD5E0;
+}
+.multi-button:hover #buttonz:hover i{
+  color: #FED7E2;
+  transform: rotate(-10deg);
+}
